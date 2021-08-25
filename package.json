@@ -1,0 +1,46 @@
+{
+  "name": "markdownpreviewer",
+  "version": "1.0.0",
+  "description": "This is a react project portfolio propose by freeCodeCamp",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack serve --port 3000",
+    "build": "NODE_ENV=production webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthoHerrera/markdownPreviewer.git"
+  },
+  "keywords": [],
+  "author": "Anthony_Herrera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthoHerrera/markdownPreviewer/issues"
+  },
+  "homepage": "https://github.com/anthoHerrera/markdownPreviewer#readme",
+  "devDependencies": {
+    "@types/marked": "^3.0.0",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.0",
+    "sass": "^1.38.1",
+    "sass-loader": "^12.1.0",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "dependencies": {
+    "core-js": "^3.16.3",
+    "marked": "^3.0.2",
+    "raf": "^3.4.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "whatwg-fetch": "^3.6.2"
+  }
+}
