@@ -11,6 +11,7 @@ const placeholder = `# Welcome to my React Markdown Previewer!
 
 Heres some code, \`<div></div>\`, between 2 backticks.
 
+Next a multiline code
 \`\`\`
 // this is multi-line code:
 
@@ -78,6 +79,7 @@ export class App extends Component<AppProps, AppState> {
     render() {
         return (
             <div id="app">
+                <h1 className='titleHeader'>Markdown Previewer</h1>
                 <div className="container-editor">
                     <Toolbar toolbarId="tool-editor" title="Editor" />
                     <ContainerText
